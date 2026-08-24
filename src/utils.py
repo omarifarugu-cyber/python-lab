@@ -1,12 +1,10 @@
 def square(n):
-    square_n = n ** 2
-    print(f"{square_n}")
+    return n ** 2
+
+
 def is_even(n):
-    pass
+    return n % 2 == 0
+
 
 def celsius_to_fahrenheit(c):
-    pass
-
-
-
-print(square(2,2))
+    return (c * 9 / 5) + 32
